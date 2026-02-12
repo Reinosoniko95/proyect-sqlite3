@@ -16,6 +16,10 @@ app.post("/",(req,res)=>{
     res.json({ok:true});
 })
 
+app.put("/",(req,res)=>{
+    
+})
+
 app.listen(3000,()=>{
     console.log("Servidor en el puerto 3000")
 })
